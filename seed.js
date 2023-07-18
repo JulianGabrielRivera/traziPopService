@@ -12,7 +12,6 @@ mongoose
     CSVToJSON()
       .fromFile("./city_populations.csv")
       .then((source) => {
-        // console.log(source);
         source.forEach((object) => {
           Population.create({
             city: object.city,
