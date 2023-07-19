@@ -16,7 +16,7 @@ OPTION 2:
 
 * RUN npm install
 * Make a .env file to store the PORT, username and password credentials to connect to your database for MongoDB which will be part of the connection string to connect successfully to our database. See below for setup.
-[ENV](public/images/dot-env-file.png)
+![ENV](public/images/dot-env-file.png)
 ![ENV](public/images/carbon.png)
 * Run node seed.js to store the data inside of our mongo database (there is 35918 objects so loading all these into the database may take a while).
 * After there is 35918 objects stored in our database (you can hit refresh on the database to keep track of how many have been uploaded so far), hit ctrl c to exit this.
